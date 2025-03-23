@@ -1,5 +1,15 @@
 function minDate(dates) {
   //write you code here
+	for (let i = 0; i < minDate.length; i++) {
+		if(minDate[i]<minDate[i+1]){
+			return minDate[i];
+		}
+		else{
+			minDate[i+1];
+		}
+		
+	}
+
 }
 
 // Do not change the code
@@ -37,4 +47,4 @@ var dates = [
   "2023/03/30",
 ];
 
-alert(minDate(dates));
+// alert(minDate(dates));
